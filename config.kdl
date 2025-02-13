@@ -400,7 +400,7 @@ copy_on_select true
 
 // The folder in which Zellij will look for layouts
 //
-layout_dir "./layouts"
+layout_dir "~/.config/zellij/layouts"
 
 // The folder in which Zellij will look for themes
 //
