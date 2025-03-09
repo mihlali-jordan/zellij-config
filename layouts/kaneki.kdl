@@ -29,5 +29,29 @@ layout {
             pane x="2%" y="52%" width="47%" height="45%"
             pane x="51%" y="52%" width="47%" height="45%"
         }
+        // 6 panes: 2x3 grid, 2 rows of 3 panes each (~31% width, 45% height)
+        floating_panes max_panes=6 {
+            // Top row
+            pane x="2%" y="5%" width="31%" height="45%"
+            pane x="35%" y="5%" width="31%" height="45%"
+            pane x="68%" y="5%" width="31%" height="45%"
+            // Bottom row
+            pane x="2%" y="52%" width="31%" height="45%"
+            pane x="35%" y="52%" width="31%" height="45%"
+            pane x="68%" y="52%" width="31%" height="45%"
+        }
+        // 8 panes: 2x4 grid, 2 rows of 4 panes each (~23% width, 45% height)
+        floating_panes max_panes=8 {
+            // Top row
+            pane x="2%" y="5%" width="23%" height="45%"
+            pane x="27%" y="5%" width="23%" height="45%"
+            pane x="52%" y="5%" width="23%" height="45%"
+            pane x="77%" y="5%" width="23%" height="45%"
+            // Bottom row
+            pane x="2%" y="52%" width="23%" height="45%"
+            pane x="27%" y="52%" width="23%" height="45%"
+            pane x="52%" y="52%" width="23%" height="45%"
+            pane x="77%" y="52%" width="23%" height="45%"
+        }
     }
 }
